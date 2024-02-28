@@ -1,3 +1,12 @@
+"""
+Example: Extracting Figures from Documents as Images
+
+Note this example requires the following packages to be installed:
+- requests
+- pymupdf (https://pypi.org/project/PyMuPDF/)
+- Pillow (https://pypi.org/project/pillow/)
+"""
+
 import requests
 import fitz
 from PIL import Image
